@@ -7,24 +7,24 @@ import img from '../../Assets/img1.png'
 import img1 from '../../Assets/img2.png'
 import img2 from '../../Assets/img3.png'
 import img3 from '../../Assets/img4.png'
-
-
+import img4 from '../../Assets/img5.png'
+import img5 from '../../Assets/img6.png'
 
 
 const data = [
-	{
+  {
 		id: 1,
-		image: img,
-		demo: "https://www.youtube.com/",
-		liveLink: 'https://oleksandrshakhov.github.io/Business-Site/',
-		github: 'https://github.com/OleksandrShakhov/Business-Site',
-		title: 'Bussiness site',
-		desc: 'This is a business site which allows you to get a help in a business field.',
-		tech1: 'HTML',
-		tech2: 'CSS',
+		image: img5,
+		demo: "",
+		liveLink: 'https://oleksandrshakhov.github.io/pizza-store/',
+		github: 'https://github.com/OleksandrShakhov/pizza-store',
+		title: 'Pizza Store',
+		desc: 'This the website which different pizza or whatever stores can use for selling their products.',
+		tech1: 'React JS',
+		tech2: 'HTML',
 		tech3: 'JavaScript',
-		tech4: '',
-		tech5: '',
+		tech4: 'CSS',
+		tech5: 'SCSS',
 	},
 	{
 		id: 2,
@@ -67,7 +67,35 @@ const data = [
 		tech3: 'JavaScript',
 		tech4: 'React',
 		tech5: '',
-	}
+	},
+  {
+		id: 5,
+		image: img4,
+		demo: "https://www.youtube.com/",
+		liveLink: 'https://oleksandrshakhov.github.io/Furniture-Collection/',
+		github: 'https://github.com/OleksandrShakhov/Furniture-Collection',
+		title: 'Furniture Collection',
+		desc: 'This is the landing page of the furniture selling business.',
+		tech1: 'HTML',
+		tech2: 'CSS',
+		tech3: 'JavaScript',
+		tech4: 'SCSS',
+		tech5: '',
+	},
+  {
+		id: 6,
+		image: img,
+		demo: "https://www.youtube.com/",
+		liveLink: 'https://oleksandrshakhov.github.io/Business-Site/',
+		github: 'https://github.com/OleksandrShakhov/Business-Site',
+		title: 'Bussiness site',
+		desc: 'This is a business site which allows you to get a help in a business field.',
+		tech1: 'HTML',
+		tech2: 'CSS',
+		tech3: 'JavaScript',
+		tech4: '',
+		tech5: '',
+	},
 ]
 
 
@@ -92,19 +120,19 @@ export default function Projects() {
 
 								<div className="externalLinks">
 									<div className="youtubeIcon">
-										<a href={demo} target='_blank'>
+                    <a href={demo} target='_blank' rel='noreferrer'>
 											<AiFillYoutube className='icon'/>
 										</a>
 									</div>
 									<div className="githubIcon">
-										<a href={github} target='_blank'>
+										<a href={github} target='_blank' rel='noreferrer'>
 											<BsGithub className='icon'/>
 										</a>
 									</div>
 								</div>
 
 								<div className="imgDiv">
-									<a href={liveLink} target="_blank">
+									<a href={liveLink} target="_blank" rel='noreferrer'>
 										<img src={image} alt={title} />
 									</a>
 								</div>

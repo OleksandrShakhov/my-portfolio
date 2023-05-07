@@ -15,7 +15,14 @@ import { SiMysql } from 'react-icons/si';
 import { SiDjango } from 'react-icons/si';
 import { SiJquery } from 'react-icons/si';
 import { FaBootstrap } from 'react-icons/fa';
-
+import { RiTeamFill } from 'react-icons/ri';
+import { AiOutlineFieldTime } from 'react-icons/ai';
+import { GiScales } from 'react-icons/gi';
+import { FaHandRock } from 'react-icons/fa';
+import { TbVector } from 'react-icons/tb';
+import { AiOutlineSolution } from 'react-icons/ai';
+import { FaAssistiveListeningSystems } from 'react-icons/fa';
+import { GiFlexibleStar } from 'react-icons/gi';
 
 export default function Skills() {
 	return (
@@ -163,6 +170,72 @@ export default function Skills() {
 								<FaBootstrap className='icon' />
 							</div>
 							<span className="skillName">Bootstrap</span>
+						</div>
+					</div>
+				</div>
+        <div className="skillGroup">
+					<div className="groupTitle">
+						<h2 className="title">Soft Skills</h2>
+						<span className="subTitle">
+            that describe me best
+						</span>
+					</div>
+					<div className="generalSkills">
+
+						<div className="singleSkill">
+							<div className="iconBox flex">
+								<RiTeamFill className='icon' />
+							</div>
+							<span className="skillName">Teamwork</span>
+						</div>
+
+						<div className="singleSkill">
+							<div className="iconBox flex">
+								<AiOutlineFieldTime className='icon' />
+							</div>
+							<span className="skillName">Time Manage</span>
+						</div>
+
+						<div className="singleSkill">
+							<div className="iconBox flex">
+								<GiScales className='icon' />
+							</div>
+							<span className="skillName">Work Ethic</span>
+						</div>
+
+						<div className="singleSkill">
+							<div className="iconBox flex">
+								<FaHandRock className='icon' />
+							</div>
+							<span className="skillName">Motivated</span>
+						</div>
+
+						<div className="singleSkill">
+							<div className="iconBox flex">
+								<TbVector className='icon' />
+							</div>
+							<span className="skillName">Adaptability</span>
+						</div>
+
+						<div className="singleSkill">
+							<div className="iconBox flex">
+								<AiOutlineSolution className='icon' />
+							</div>
+							<span className="skillName">Problem-solving</span>
+						</div>
+
+            <div className="singleSkill">
+							<div className="iconBox flex">
+								<FaAssistiveListeningSystems className='icon' />
+							</div>
+							<span className="skillName">Active Listener</span>
+						</div>
+
+            <div className="singleSkill">
+							<div className="iconBox flex">
+								<GiFlexibleStar className='icon' />
+							</div>
+							<span className="skillName">Flexibility</span>
 						</div>
 					</div>
 				</div>

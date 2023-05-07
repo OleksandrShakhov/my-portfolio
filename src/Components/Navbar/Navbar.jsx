@@ -66,7 +66,7 @@ export default function Navbar() {
 						</a>
 					</li>
 						<button className='btn'>
-							<a href="resume Alex customer service.pdf" download='resume Alex customer service.pdf'>Resume</a>
+							<a href="Oleksandr Shakhov(Web Development).pdf" download='Oleksandr Shakhov(Web Development).pdf'>Resume</a>
 						</button>
 				</ul>
 

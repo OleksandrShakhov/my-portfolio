@@ -17,13 +17,12 @@ export default function About() {
 			<div className="container sectionContent grid">
 				<div className="textSection">
 					<h4>
-					I'm a success-driven, determined Web developer. I have experience using HTML Sass Javascript and PHP to build accessible component-based web pages and systems.<br/>
-					Ability to deliver quality results while collaborating in rapidly changing work environments and team compositions.<br/>
-					A passionate person willing to learn more technologies to become a better developer than i was yesterday. So determined and result orietend.
+					A highly motivated junior web developer with a proven ability to deliver quality results while working collaboratively in a rapidly changing work environment and team composition. Equipped with a list of well- prepared and modernly adapted projects made by using the most up-to-date technologies. Deadline driven and hardworking student with a strong desire to always learn new things and contribute to the success of the team. Individual and collaborative diligent web programmer with great problem solving and new product creation skills.
+          <br/><br/><b>For more information click on the button below.</b>
 					</h4>
 
 					<div className="aboutBtn">
-						<a href="resume Alex customer service.pdf" download='resume Alex customer service.pdf' className="flex">
+						<a href="Oleksandr Shakhov(Web Development).pdf" download='Oleksandr Shakhov(Web Development).pdf' className="flex">
 							Download CV <FiDownload className='icon' />
 						</a>
 					</div>
