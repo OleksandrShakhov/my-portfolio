@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.b9cef9ae.css",
-    "main.js": "/my-portfolio/static/js/main.65d19f37.js",
-    "static/media/img2.png": "/my-portfolio/static/media/img2.0222120ba256044d1315.png",
-    "static/media/img6.png": "/my-portfolio/static/media/img6.a054bfd5e40239952cc3.png",
-    "static/media/img1.png": "/my-portfolio/static/media/img1.75ec9e17c99a89b112e8.png",
-    "static/media/img5.png": "/my-portfolio/static/media/img5.23a3530bbe3b683bd3a0.png",
-    "static/media/img3.png": "/my-portfolio/static/media/img3.1f07a00effb19eedcb1f.png",
-    "static/media/alex-png.png": "/my-portfolio/static/media/alex-png.2e1b4011c608b3665d89.png",
-    "static/media/img4.png": "/my-portfolio/static/media/img4.ebd0204cde2b7b887636.png",
-    "index.html": "/my-portfolio/index.html",
-    "main.b9cef9ae.css.map": "/my-portfolio/static/css/main.b9cef9ae.css.map",
-    "main.65d19f37.js.map": "/my-portfolio/static/js/main.65d19f37.js.map"
+    "main.css": "/myportfolio/static/css/main.b9cef9ae.css",
+    "main.js": "/myportfolio/static/js/main.e26228da.js",
+    "static/media/img2.png": "/myportfolio/static/media/img2.0222120ba256044d1315.png",
+    "static/media/img6.png": "/myportfolio/static/media/img6.a054bfd5e40239952cc3.png",
+    "static/media/img1.png": "/myportfolio/static/media/img1.75ec9e17c99a89b112e8.png",
+    "static/media/img5.png": "/myportfolio/static/media/img5.23a3530bbe3b683bd3a0.png",
+    "static/media/img3.png": "/myportfolio/static/media/img3.1f07a00effb19eedcb1f.png",
+    "static/media/alex-png.png": "/myportfolio/static/media/alex-png.2e1b4011c608b3665d89.png",
+    "static/media/img4.png": "/myportfolio/static/media/img4.ebd0204cde2b7b887636.png",
+    "index.html": "/myportfolio/index.html",
+    "main.b9cef9ae.css.map": "/myportfolio/static/css/main.b9cef9ae.css.map",
+    "main.e26228da.js.map": "/myportfolio/static/js/main.e26228da.js.map"
   },
   "entrypoints": [
     "static/css/main.b9cef9ae.css",
-    "static/js/main.65d19f37.js"
+    "static/js/main.e26228da.js"
   ]
 }
