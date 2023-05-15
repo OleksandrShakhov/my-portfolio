@@ -9,9 +9,7 @@ import { FaPython } from 'react-icons/fa';
 import { CgFigma } from 'react-icons/cg';
 import { SiAdobephotoshop } from 'react-icons/si';
 import { SiAdobexd } from 'react-icons/si';
-import { FaGitSquare } from 'react-icons/fa';
 import { FaGithubSquare } from 'react-icons/fa';
-import { SiMysql } from 'react-icons/si';
 import { SiDjango } from 'react-icons/si';
 import { SiJquery } from 'react-icons/si';
 import { FaBootstrap } from 'react-icons/fa';
@@ -23,6 +21,8 @@ import { TbVector } from 'react-icons/tb';
 import { AiOutlineSolution } from 'react-icons/ai';
 import { FaAssistiveListeningSystems } from 'react-icons/fa';
 import { GiFlexibleStar } from 'react-icons/gi';
+import { SiCsharp } from 'react-icons/si';
+import { AiOutlineConsoleSql } from 'react-icons/ai';
 
 export default function Skills() {
 	return (
@@ -132,9 +132,9 @@ export default function Skills() {
 
 						<div className="singleSkill">
 							<div className="iconBox flex">
-								<FaGitSquare className='icon' />
+								<SiCsharp className='icon' />
 							</div>
-							<span className="skillName">Git</span>
+							<span className="skillName">C#</span>
 						</div>
 
 						<div className="singleSkill">
@@ -146,9 +146,9 @@ export default function Skills() {
 
 						<div className="singleSkill">
 							<div className="iconBox flex">
-								<SiMysql className='icon' />
+								<AiOutlineConsoleSql className='icon' />
 							</div>
-							<span className="skillName">SQLite</span>
+							<span className="skillName">SQL</span>
 						</div>
 
 						<div className="singleSkill">
