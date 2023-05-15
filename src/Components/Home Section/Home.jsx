@@ -15,13 +15,13 @@ export default function Home() {
 			{/* this div will be visible only at wide screens*/}
 			<div className="leftIcons">
 				<div className="socials grid">
-					<a href='https://github.com/OleksandrShakhov' target='_blank'>
+					<a href='https://github.com/OleksandrShakhov' target='_blank' rel="noreferrer">
 						<FiGithub className='icon'/>
 					</a>
-					<a href='https://www.facebook.com/aleksandr.shakhov.3597/' target='_blank'>
+					<a href='https://www.facebook.com/aleksandr.shakhov.3597/' target='_blank' rel="noreferrer">
 						<FiFacebook className='icon'/>
 					</a>
-					<a href='https://t.me/Oleksandr_Shakhov' target='_blank'>
+					<a href='https://t.me/Oleksandr_Shakhov' target='_blank' rel="noreferrer">
 						<TbBrandTelegram className='icon'/>
 					</a>
 					<div className="line"></div>
@@ -40,7 +40,7 @@ export default function Home() {
 				</h1>
 
 				<span className='subTitle'>
-				I develop responsive web applications and manage your website.
+				I would like to obtain junior Web developer position / volunteer position
 				</span>
 
 				<p className="homeParagraph">
@@ -68,7 +68,7 @@ export default function Home() {
 			<div className="rightEmail">
 				<div>
 					<div className="emailAddress">
-						<a href="https://mailto:shakhov42@gmail.com" target='_blank'>
+						<a href="https://mailto:shakhov42@gmail.com" target='_blank' rel="noreferrer">
 							shakhov42@gmail.com
 						</a>
 					</div>
