@@ -21,11 +21,18 @@ export default function About() {
           <br/><br/><b>For more information click on the button below.</b>
 					</h4>
 
-					<div className="aboutBtn">
-						<a href="Oleksandr Shakhov(Web Development).pdf" download='Oleksandr Shakhov(Web Development).pdf' className="flex">
-							Download CV <FiDownload className='icon' />
-						</a>
-					</div>
+          <div className='flex'>
+            <div className="aboutBtn">
+              <a href="Oleksandr Shakhov(Web Development).pdf" download='Oleksandr Shakhov(Web Development).pdf' className="flex">
+                Resume <FiDownload className='icon' />
+              </a>
+            </div>
+            <div className="aboutBtn">
+              <a href="Cover letter for Web.pdf" download='Cover letter for Web.pdf' className="flex">
+                Cover Letter <FiDownload className='icon' />
+              </a>
+            </div>
+          </div>
 				</div>
 
 				<div className="aboutImgDiv">
