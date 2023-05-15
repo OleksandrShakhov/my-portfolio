@@ -28,6 +28,9 @@
 	width: max-content;
 	padding: 10px 15px;
 }
+.aboutBtn {
+  margin-right: 10px;
+}
 .aboutBtn:hover {
 	background: var(--primaryHover);
 }
