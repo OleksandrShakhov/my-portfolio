@@ -9,7 +9,7 @@ export default function About() {
 			<div className="sectionTitle">
 				<span className="titleNumber">01.</span>
 				<h5 className="titleText">
-					About about about about
+					About
 					<div className="underline"><span></span></div>
 				</h5>
 			</div>
